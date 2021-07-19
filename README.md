@@ -3,7 +3,7 @@
 ## Port mapping:
 
 * 9200 - peatio
-* 9201 - barong
+* 9201 - barong/dummy auth
 * 8090 - ranger
 * 3000 - baseapp (front)
 * 8091 - tower
