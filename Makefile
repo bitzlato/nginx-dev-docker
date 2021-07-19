@@ -1,2 +1,2 @@
 all:
-	docker run --name opendax-nginx-container -v default.conf:/etc/nginx/conf.d/default.conf:ro -d nginx:1.21
+	docker run -it --rm -d -p 8080:80 --name opendax-nginx nginx -v default.conf:/etc/nginx/conf.d/
